@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stemeetup | סתמיטאפ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Heebo', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fdf0f7;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(45deg, #ff80b0, #ff4081);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            border-radius: 0 0 20px 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+        }
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin: 2rem 0;
+        }
+        section h2 {
+            color: #ff4081;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #ffe6f1;
+            margin: 0.5rem 0;
+            padding: 0.8rem;
+            border-radius: 8px;
+        }
+        .cta {
+            margin: 2rem 0;
+            text-align: center;
+        }
+        .cta a {
+            display: inline-block;
+            text-decoration: none;
+            background: #ff4081;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .cta a:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #ff80b0;
+            color: white;
+            font-size: 1rem;
+            border-radius: 20px 20px 0 0;
+            margin-top: 2rem;
+        }
+        .resume-button {
+            display: inline-block;
+            text-decoration: none;
+            background: #ff4081;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .resume-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            header p {
+                font-size: 1rem;
+            }
+            main {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Stemeetup | סתמיטאפ</h1>
+        <p>The event you didn't know you needed!</p>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome!</h2>
+            <p>
+                Stemeetup is the place where people, ideas, and humor come together!  
+                Join us for lighthearted conversations, laughs, and surprising insights with a unique developer community.
+            </p>
+            <div class="cta">
+                <a href="#resume-section">Register Now</a>
+            </div>
+        </section>
+        <section>
+            <h2>Why Join?</h2>
+            <ul>
+                <li>Inspiring and concise talks</li>
+                <li>Laughs and a cheerful atmosphere</li>
+                <li>Networking with amazing developers</li>
+                <li>Memorable experiences to take home</li>
+            </ul>
+        </section>
+        <section id="resume-section">
+            <h2>סתם</h2>
+            <p>
+               מחפשים מפתחת בקאנד? אלה קורות החיים שלי
+            </p>
+            <a href="Tamar-Dobrin-resume.pdf" class="resume-button" download>Download My Resume</a>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Stemeetup. All rights reserved.</p>
+    </footer>
+</body>
+</html>
